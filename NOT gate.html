@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: #27F5E4;">
+
+<h2 style="font-weight:bold; color: blue;">What does the not gate do?</h2>
+
+<p>here is an example of how a NOT logic gate system works.</p>
+
+<img id="myImage" src="noton2.png" alt="Not onlight Pic" width="300">
+</br></br>
+<button onclick="switchImageOn()"> On</button>
+</br></br>
+<button onclick="switchImageOff()">Off</button>
+
+<script>
+  function switchImageOn() {
+    let image = document.getElementById("myImage");
+    image.src = "noton2.png";
+  }
+  function switchImageOff() {
+    let image = document.getElementById("myImage");
+    image.src = "notoff2gate.png";
+  }
+</script>
+
+</body>
+</html>

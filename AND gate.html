@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: #27F5E4;">
+
+<h2 style="font-weight:bold; color: blue;">What does the AND gate do?</h2>
+
+<p>here is an example of how a AND logic gate system works.</p>
+
+<img id="myImage" src="and2off.png" alt="Zero_Zero Pic" width="300">
+</br></br>
+<button onclick="zero_zero()" style="padding: 10px;">Zero to Zero</button>
+</br></br>
+<button onclick="zero_one()" style="padding: 10px;">Zero to One</button>
+</br></br>
+<button onclick="one_zero()" style="padding: 10px;">One to Zero</button>
+</br></br>
+<button onclick="one_one()" style="padding: 10px;">One to One</button>
+
+<script>
+  function zero_zero() {
+    let image = document.getElementById("myImage");
+    image.src = "and2off.png";
+  }
+  function zero_one() {
+    let image = document.getElementById("myImage");
+    image.src = "andoffon.png";
+  }
+  function one_zero() {
+    let image = document.getElementById("myImage");
+    image.src = "andonoff.png";
+  }
+  function one_one() {
+    let image = document.getElementById("myImage");
+    image.src = "and2on.png";
+  }
+</script>
+
+</body>
+</html>
